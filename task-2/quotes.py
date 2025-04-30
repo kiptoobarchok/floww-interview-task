@@ -41,4 +41,4 @@ driver.quit()
 with open("quotes.json", "w", encoding="utf-8") as f:
     json.dump(five_quotes, f, indent=4, ensure_ascii=False)
 
-print(f"Saved {len(five_quotes)} quotes to \'quotes.json\' file")
+print(f"Saved {len(five_quotes)} quotes to \'quotes.json\' ")
